@@ -20,14 +20,15 @@ export default function Main() {
             className="image-wrapper"
             target="_blank"
           >
-            <Image
-              src={`${baseURL}/img/phone/${file}`}
-              alt={altText}
-              fill
-              sizes="100vw"
-              style={{ objectFit: "cover" }}
-              unoptimized={false}
-            />
+         <Image
+  src={`${baseURL}/img/phone/${file}`}
+  alt={altText}
+  fill
+  sizes="100vw"
+  style={{ objectFit: "cover" }}
+  unoptimized={true} // ปิดการ optimize ทำให้โหลดจากทุกโดเมนได้
+/>
+
           </a>
         );
       })}
