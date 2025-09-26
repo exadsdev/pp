@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin/*
+Disallow: /api/*
+
+# Host
+Host: https://www.sexshop168.shop
+
+# Sitemaps
+Sitemap: https://www.sexshop168.shop/sitemap.xml
+Sitemap: https://www.pgphone-store.com/sitemap.xml
